@@ -1,0 +1,132 @@
+
+body
+{
+    background-color: rgb(0, 0, 0);
+}
+#menu
+{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(102, 27, 27) ;
+    border-bottom: 10px;
+    border-bottom-color: black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#res-logo
+{
+    width:5%;
+    height: auto;
+    margin-left:3px;
+    padding-top:auto;
+    margin-right: 1rem;
+    padding-right: 10px;
+}
+
+#res-name
+{
+    width:15%;
+    height: auto;
+    margin-left:3px;
+    padding-top:auto;
+    margin-right: 1rem;
+    padding-right: 1px;
+}
+
+#bar-op
+{
+    font-family: 'Lucida Sans Regular';
+    margin-left: 2rem;
+}
+
+.nav-link
+{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#img-index
+{
+    width:max-content;
+    max-height:auto !important;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    margin: auto;
+    padding: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: auto;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.presentacion{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+}
+
+#Welcome-msg
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.863);
+    
+}
+
+#slogan-msg
+{
+    padding-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.863);
+    
+}
+
+/*===================SLIDER DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-height: 37rem !important;
+}
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+
+
+
+#img-equipo{
+    max-height:max-content !important;
+    width:50%;
+}
+
+.card
+{
+    background-color: black;
+    height: 35rem;
+    width: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.card-title{
+    padding-left: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.card-text{
+    padding-left: 30px;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.863);
+}
+
